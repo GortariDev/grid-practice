@@ -20,29 +20,24 @@ body {
   border: 2px solid gray;
 }
 
-.square1 {
-  grid-area: p9;
+.square {
   width: 200px;
   height: 200px;
   place-self: center;
   border: 1px solid #000;
+}
+
+.square1 {
+  grid-area: p9;
   background-color: tomato;
 }
 
 .square2 {
   grid-area: p3;
-  width: 200px;
-  height: 200px;
-  place-self: center;
-  border: 1px solid #000;
   background-color: blueviolet;
 }
 
 .square3 {
   grid-area: p4;
-  width: 200px;
-  height: 200px;
-  place-self: center;
-  border: 1px solid #000;
   background-color: green;
 }
