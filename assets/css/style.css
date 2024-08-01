@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1440px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+          "p1 p2 p3"
+          "p4 p5 p6"
+          "p7 p8 p9";
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+}
+
+.square1 {
+  grid-area: p9;
+  width: 200px;
+  height: 200px;
+  place-self: center;
+  border: 1px solid #000;
+  background-color: tomato;
+}
+
+.square2 {
+  grid-area: p3;
+  width: 200px;
+  height: 200px;
+  place-self: center;
+  border: 1px solid #000;
+  background-color: blueviolet;
+}
+
+.square3 {
+  grid-area: p4;
+  width: 200px;
+  height: 200px;
+  place-self: center;
+  border: 1px solid #000;
+  background-color: green;
+}
